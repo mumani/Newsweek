@@ -7,7 +7,9 @@ html{
 }
 
 body{
-    
+    background-color: #f4f5f6;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
 }
 /*ends*/
 
@@ -33,6 +35,27 @@ body{
 .logo-text span {
     font-size: 60px;
     font-weight: 700;   
+}
+.red {
+    background: red;
+    color: #ffffff;
+}
+.white {
+    background: #ffffff;
+    border-bottom: 2px solid #ccc;
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    font-weight: 700;
+    font-family: "Roboto Condensed",sans-serif;
+    list-style: none;
 }
 /*ends*/
 
