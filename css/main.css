@@ -13,12 +13,12 @@ body{
 }
 /*ends*/
 
-/* begins*/
-
+/*Header CSS begins*/
 .container {
     background-color: #ccc;
 
 }
+
 .mainb {
     background-color: #ce1414;
     color: #ffffff;
@@ -34,12 +34,14 @@ body{
 
 .logo-text span {
     font-size: 60px;
-    font-weight: 700;   
+    font-weight: 700;
 }
+
 .red {
     background: red;
     color: #ffffff;
 }
+
 .white {
     background: #ffffff;
     border-bottom: 2px solid #ccc;
@@ -57,7 +59,7 @@ nav {
     font-family: "Roboto Condensed",sans-serif;
     list-style: none;
 }
-/*ends*/
+/*Header CSS ends*/
 
 /* begins*/
 /*ends*/
