@@ -16,7 +16,7 @@ body{
 /*Header CSS begins*/
 .container {
     background-color: #ccc;
-
+    width: 1400px;
 }
 
 .mainb {
@@ -32,8 +32,8 @@ body{
     text-align: center;
 }
 
-.logo-text span {
-    font-size: 60px;
+#logo {
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -51,6 +51,16 @@ nav {
     padding-top: 15px;
     padding-bottom: 15px;
     z-index: 1;
+}
+
+nav a {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #000000;
 }
 
 .nav {
