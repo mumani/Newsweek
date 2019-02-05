@@ -19,6 +19,10 @@ body{
     width: 1400px !important;
 }
 
+ul{
+    margin-left: -40px;
+}
+
 .mag {
     background-color: #ffffff;
 }
@@ -51,27 +55,13 @@ body{
     border-bottom: 2px solid #ccc;
 }
 
-nav {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    z-index: 1;
+#sign-in {
+    text-align:right
 }
 
-nav a {
-    color: #000000;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-nav a:hover {
-    color: #000000;
-}
-
-.nav {
-    display: flex;
-    font-weight: 700;
-    font-family: "Roboto Condensed",sans-serif;
-    list-style: none;
+nav ul li{
+    float: left;
+    margin-right: 30px
 }
 /*Header CSS ends*/
 
@@ -123,9 +113,8 @@ h3> a:hover {
     color: red;
 }
 
-.more>.image{
-    float: left;
-    margin-right: 10px;
+.more{
+    display: flex;
 }
 .more>h4>a{
     color: #000000;
@@ -139,11 +128,6 @@ h3> a:hover {
     color: #000000;
     text-decoration: underline;
     text-decoration-color: red;
-}
-
-article::after{
-    content: 'A';
-    clear: left;
 }
 
 li picture {
@@ -175,6 +159,7 @@ article>h2>a:hover {
     text-decoration: none;
     color: #000000;
     border-bottom: 1px solid rgb(177, 166, 166);
+    padding: 5px 0;
 }
 .content li a{
     color: #000000;
@@ -185,11 +170,42 @@ article>h2>a:hover {
 }
 
 .round {
-    height: 70px;
+    height: 65px;
 }
+
+.flexr {
+    display: flex;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.flexr img{
+    margin-right: 10px;
+}
+
+.flexr a {
+    color: #000000;
+    text-decoration: none;
+}
+.flexr a:hover {
+    color: red;
+}
+
+
 /*ends*/
 
 /* begins*/
+/* tags on images on the left side*/
+.tag {
+    background-color: #d4d1d1;
+    position: absolute;
+    z-index: 10;
+}
+
+.tag a{
+    color: red;
+    text-decoration: none;
+}
 /*ends*/
 
 /* begins*/
