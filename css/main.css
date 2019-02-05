@@ -63,7 +63,7 @@ nav {
 /*Header CSS ends*/
 
 /* begins*/
-.container{
+.container-fluid{
   text-align: center;
   background-color: #fff;
 }
@@ -204,7 +204,7 @@ h2 span{
 
 }
 
-#post-menu2 div, #post-menu3 div, #post-menu4 div{
+#post-menu2 div{
   text-align: left;
   background-color: #fff;
   height: 100px;
@@ -218,52 +218,74 @@ h2 span{
 #img-box div{
   display: inline-table;
   text-align: left;
+  border: 1px solid #ccc;
+  padding-top: 220px;
+  padding-left: -50px;
+
 }
 
 #img-box h2{
-  border: 1px solid #000;
+  margin-left: -20px;
+  width: 25%;
+  border: 1px solid #fff;
   display: table-cell;
   vertical-align: bottom;
-  background-color: inherit;
+  background-color: #eee;
+  position: relative;
+  left: -15px;
+}
+
+#post-menu3 div, #post-menu4 div{
+  text-align: left;
+  background-color: #fff;
+  height: 160px;
+  padding-left: 0;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
+#post-menu3 div p, #post-menu4 div p{
+  font-weight: lighter;
+  font-size: 15px;
 }
 
 #box-8{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/donald-trump-impeachment.jpg);
   background-size: cover;
 }
 
 #box-9{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/trump-mar-lago-taxpayers-millions.jpg);
   background-size: cover;
 }
 
 #box-10{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2018/06/12/american-flag.jpg);
   background-size: cover;
 }
 
 #box-11{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/seals-rocks-nz.jpg);
   background-size: cover;
 }
 
 #box-12{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/erick-jamal-hendricks-isis-sentenced.jpg);
   background-size: cover;
 }
 
 #box-13{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/adolf-hitler-paintings-nazi-artwork-auction-nuremburg.jpg);
   background-size: cover;
 }
 
 #box-14{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/iud-contrapcetion-stock-getty.jpg);
   background-size: cover;
 }
 
 #box-15{
-  background-image: url();
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/10/earths-magnetic-field.jpg);
   background-size: cover;
 }
 /*ends*/
