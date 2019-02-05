@@ -68,6 +68,12 @@ nav {
   background-color: #fff;
 }
 
+#top-line{
+  position: relative;
+  left: 145px;
+  width: 75%;
+}
+
 .row{
   margin-top: 5px;
 }
@@ -97,12 +103,12 @@ h2 span{
 #feature-link{
   background-color: #fff !important;
   background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/embed-xs/public/2019/01/24/20190201-08cover1800x2400.jpg);
-  background-size: contain;
+  background-size: cover;
   border: 1px solid transparent;
   background-position: center;
   background-repeat: no-repeat;
-  height: 350px;
-  margin-top: -70px;
+  height: 330px;
+  margin-top: -40px;
 
 }
 
@@ -110,8 +116,9 @@ h2 span{
   background-color: #ccc;
   color: #f00;
   position: relative;
-  top: 300px;
-  left: -2px;
+  top: 290px;
+  left: -15px;
+  width: 70%;
 }
 
 .col-sm{
@@ -158,33 +165,107 @@ h2 span{
 }
 
 #post-menu{
-  margin-top: -25px;
-  margin-bottom: -25px;
+
+
 }
 
 #post-menu div{
   text-align: left;
   background-color: #fff;
-  height: 100px !important;
   padding-left: 0;
   border: 1px solid #fff;
   font-weight: bold;
 }
 
 #fl-menu{
-  margin-top: 50px;
-  height: 50px;
+  text-align: center !important;
+  margin-top: -25px;
+  background-color: #ddd !important;
+  height: 50px !important;
+  display: inline-table;
+
+
 
 }
 
 .fl-menu{
-  margin-left: 15px;
-  background-color: #ddd !important;
+  margin-left: 10px;
+  background-color: inherit;
   font-size: 18px !important;
+  margin-left: 50px;
+  height: 70px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#hl-menu1, #hl-menu2, #hl-menu3{
+  margin-top: -30px !important;
+  height: 100px !important;
+
+}
+
+#post-menu2 div, #post-menu3 div, #post-menu4 div{
+  text-align: left;
+  background-color: #fff;
+  height: 100px;
+  padding-left: 0;
+  border: 1px solid #fff;
+  font-weight: bold;
 }
 /*ends*/
 
 /* begins*/
+#img-box div{
+  display: inline-table;
+  text-align: left;
+}
+
+#img-box h2{
+  border: 1px solid #000;
+  display: table-cell;
+  vertical-align: bottom;
+  background-color: inherit;
+}
+
+#box-8{
+  background-image: url();
+  background-size: cover;
+}
+
+#box-9{
+  background-image: url();
+  background-size: cover;
+}
+
+#box-10{
+  background-image: url();
+  background-size: cover;
+}
+
+#box-11{
+  background-image: url();
+  background-size: cover;
+}
+
+#box-12{
+  background-image: url();
+  background-size: cover;
+}
+
+#box-13{
+  background-image: url();
+  background-size: cover;
+}
+
+#box-14{
+  background-image: url();
+  background-size: cover;
+}
+
+#box-15{
+  background-image: url();
+  background-size: cover;
+}
 /*ends*/
 
 /* begins*/
