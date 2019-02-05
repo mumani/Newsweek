@@ -16,7 +16,11 @@ body{
 /*Header CSS begins*/
 .container {
     background-color: #ccc;
-    width: 1400px;
+    width: 1400px !important;
+}
+
+.mag {
+    background-color: #ffffff;
 }
 
 .mainb {
@@ -72,6 +76,117 @@ nav a:hover {
 /*Header CSS ends*/
 
 /* begins*/
+
+.title {
+    color: #777777;
+    font-weight: 600;
+}
+.block {
+    width: 100%
+}
+
+.first {
+    max-width: 33%;
+}
+
+h3> a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+h3> a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.related {
+    list-style: none;
+    color: black;
+}
+
+.related li {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.related li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.related li a:hover{
+    color: red;
+}
+
+.more>.image{
+    float: left;
+    margin-right: 10px;
+}
+.more>h4>a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+.more>h4> a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+article::after{
+    content: 'A';
+    clear: left;
+}
+
+li picture {
+    width: 70px;
+    height: 50px;
+}
+
+article>h2>a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+article>h2>a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.subfeature2 img{
+    width: 135px;
+    height: 90px;
+}
+
+.content li{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid rgb(177, 166, 166);
+}
+.content li a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+.round {
+    height: 70px;
+}
 /*ends*/
 
 /* begins*/
