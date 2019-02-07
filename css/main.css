@@ -64,7 +64,7 @@ nav{
 
 /* begins*/
 .container-fluid{
-  text-align: center;
+  text-align: left;
   background-color: #fff;
 }
 
@@ -80,7 +80,7 @@ nav{
 
 h1{
   text-transform: capitalize;
-  text-indent: 100px;
+  text-indent: 600px;
   font-size: 21px !important;
   font-weight: bold !important;
   padding-top: 10px;
@@ -183,9 +183,6 @@ h2 span{
   background-color: #ddd !important;
   height: 50px !important;
   display: inline-table;
-
-
-
 }
 
 .fl-menu{
@@ -290,7 +287,7 @@ h2 span{
 }
 /*ends*/
 
-/* begins*/
+/*'Featured Slideshows' begins*/
 #fs-box{
   height: 320px;
 }
@@ -319,17 +316,51 @@ h2 span{
   text-decoration: underline;
   text-decoration-color: #f23;
 }
+
+#fs-box1{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/01/christian-dior-designer-dreams-victoria-albert-museum.jpg);
+  background-size: cover;
+}
+#fs-box2{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/31/image-00_0.jpg);
+  background-size: cover;
+}
+#fs-box3{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/31/image-00.jpg);
+  background-size: cover;
+}
+#fs-box4{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/30/00-gettyimages-1091003758.jpg);
+  background-size: cover;
+}
+#fs-box5{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/30/00-polar-vortex-snow-maryland.jpg);
+  background-size: cover;
+}
+#fs-box6{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/29/image-00_0.jpg);
+  background-size: cover;
+}
 /*ends*/
 
 /* begins*/
 .category-line{
-  text-indent: -97%;
+  text-indent: 0;
   color: #f23;
   font-size: 21px;
 }
 
 #us-box{
   height: 350px;
+}
+
+#us-box1{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/gettyimages-51256941.jpg);
+  background-size: cover;
+}
+#us-box2{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/29/facetime-bug-apple-pulls-group-calling-eavesdrop-how-disable-facetime.jpg);
+  background-size: cover;
 }
 
 #list-box{
@@ -369,7 +400,7 @@ h2 span{
   margin-left: 1px;
   width: inherit;
   height: inherit;
-  background-color: #888;
+  background-color: #fff;
   font-weight: bold;
   font-size: 15px;
 }
@@ -381,12 +412,31 @@ h2 span{
   background-color: #bbb !important;
 }
 
-#li-img3{}
-#li-img4{}
-#li-img5{}
+#li-img3{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/wright-patterson-air-force-base-employee-child-rape.jpg);
+  background-size: cover;
+}
+#li-img4{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/frozen-cat-fluffy.jpg);
+  background-size: cover;
+}
+#li-img5{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/charles-dickens-1860.jpg);
+  background-size: cover;
+}
 /*ends*/
 
-/* begins*/
+/*World begins*/
+#wl-box{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/00-alfaromeo8c2900blungotouringcoupe-23.jpg);
+  background-size: cover;
+}
+
+#wl-box1{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/gettyimages-670989506-594x594.jpg);
+  background-size: cover;
+}
+
 #li-img, #li-img1, #li-img2{
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -394,16 +444,133 @@ h2 span{
   background-color: #bbb !important;
 }
 
-#li-img{}
-#li-img1{}
-#li-img2{}
+#li-img{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/06/gettyimages-631029424_0.jpg);
+  background-size: cover;
+}
+#li-img1{
+  background-image: url();
+  background-size: cover;
+}
+#li-img2{
+  background-image: url();
+  background-size: cover;
+}
 /*ends*/
 
-/* begins*/
+/*Business begins*/
+#li-img6, #li-img7, #li-img8{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-right: 15px solid #fff;
+  background-color: #bbb !important;
+}
+
+#bs-box{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/06/rolling-acres-2.jpg);
+  background-size: cover;
+}
+#bs-box1{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/stateoftheunionlivestreamwatch.jpg);
+  background-size: cover;
+}
+
+#li-img6{
+  background-image: url();
+  background-size: cover;
+}
+#li-img7{
+  background-image: url();
+  background-size: cover;
+}
+#li-img8{
+  background-image: url();
+  background-size: cover;
+}
 /*ends*/
 
-/* begins*/
+/*Tech & Science begins*/
+#li-img9, #li-img10, #li-img11{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-right: 15px solid #fff;
+  background-color: #bbb !important;
+}
+
+#ts-box{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/genesis-butler.jpg);
+  background-size: cover;
+}
+
+#ts-box1{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/robin-getty-stock.jpg);
+  background-size: cover;
+}
+
+#li-img9{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/contentm1303521387lrmos.png);
+  background-size: cover;
+}
+#li-img10{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/remove-message-everyone.jpeg);
+  background-size: contain;
+}
+#li-img11{
+  background-image: url();
+  background-size: cover;
+}
 /*ends*/
 
-/* begins*/
+/*Culture begins*/
+#li-img12, #li-img13, #li-img14{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-right: 15px solid #fff;
+  background-color: #bbb !important;
+}
+
+#li-img12{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/gettyimages-915062574.jpg);
+  background-size: cover;
+}
+#li-img13{
+  background-image: url();
+  background-size: cover;
+}
+#li-img14{
+  background-image: url();
+  background-size: cover;
+}
+/*ends*/
+
+/*Sports begins*/
+#li-img15, #li-img16, #li-img17{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-right: 15px solid #fff;
+  background-color: #bbb !important;
+}
+
+#sp-box{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/kevin-durant-golden-state-warriors_0.jpg);
+  background-size: cover;
+}
+
+#sp-box1{
+  background-image: url();
+  background-size: cover;
+}
+
+#li-img15{
+  background-image: url();
+  background-size: cover;
+}
+#li-img16{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/harrison-barnes-dallas-mavericks.jpg);
+  background-size: cover;
+}
+#li-img17{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/kevin-durant-golden-state-warriors.jpg);
+  background-size: cover;
+}
 /*ends*/
