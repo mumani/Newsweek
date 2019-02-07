@@ -9,16 +9,21 @@ body{
     font-family: Arial,Helvetica,sans-serif;
 }
 .container-fluid {
-    background-color: #ccc;
+    background-color: #000;
     width: 1310px !important;
 }
 /*ends*/
 
 /*Header CSS begins*/
 
+#logo {
+    margin-right: 200px;
+    border: 3px blue solid;
+}
+
 .nav {
-    width: 100%;
     background-color: #ffffff;
+    border-bottom: 2px solid #f4f5f6;
 }
 .nav ul {
     display: flex;
@@ -27,6 +32,7 @@ body{
 
 .nav ul>li {
     flex-grow: 1;
+    border-right: 1px solid #d9d9d9;
 }
 
 .wrap img {
@@ -68,6 +74,11 @@ article{
 .red {
     background: red;
     color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.flank {
+    margin-bottom: 0;
 }
 
 .white {
@@ -84,6 +95,17 @@ article{
     min-height: 33px;
     margin-bottom: 10px;
 }
+
+#sign-in{
+    font-size: 17px;
+    font-weight: bold;
+}
+#sub{
+    background-color: #fff;
+    color: #f82f1c;
+    padding: 10px;
+}
+
 /*Header CSS ends*/
 
 /* begins*/
@@ -98,6 +120,10 @@ article{
 
 .first {
     max-width: 33%;
+}
+
+h3 {
+    line-height: 22px;
 }
 
 h3> a {
@@ -156,10 +182,7 @@ h3> a:hover {
     text-decoration-color: red;
 }
 
-li picture {
-    width: 70px;
-    height: 50px;
-}
+
 
 article>h2>a{
     color: #000000;
@@ -225,6 +248,9 @@ article>h2>a:hover {
 .tag {
     background-color: #d4d1d1;
     position: absolute;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 18px;
     bottom: 0;
     z-index: 10;
 }
@@ -248,6 +274,7 @@ article>h2>a:hover {
     flex-wrap: wrap;
     border-top: 1px solid #d9d9d9;
     padding-top: 6px;
+    margin-top: 10px;
     font-size: 14px;
     line-height: 15px;
     color: #666;
@@ -273,6 +300,32 @@ article>h2>a:hover {
 label{
     margin-top:6px;
     margin-right:15px;
+}
+
+.bflex {
+    display: flex;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.bflex li {
+    text-align: center;
+    border-right: 1px solid #999;
+}
+
+.bflex a {
+    color: #666;
+    text-decoration: none;
+}
+
+.bflex a:hover {
+    color: #000;
+}
+
+.footer-logo{
+    color: #ff0000 !important;
+    font-size: 40px;
+    font-weight: bold;
 }
 /*ends*/
 
