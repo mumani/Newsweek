@@ -14,47 +14,47 @@ body{
 /*ends*/
 
 /*Header CSS begins*/
-.container {
+.container{
     background-color: #ccc;
     width: inherit;
 
 }
 
-.mainb {
+.mainb{
     background-color: #ce1414;
     color: #ffffff;
 }
 
-.maina {
+.maina{
     background-color: #ffffff;
 }
 
-.logo-text {
+.logo-text{
     text-align: center;
 }
 
-.logo-text span {
+.logo-text span{
     font-size: 60px;
     font-weight: 700;
 }
 
-.red {
+.red{
     background: red;
     color: #ffffff;
 }
 
-.white {
+.white{
     background: #ffffff;
     border-bottom: 2px solid #ccc;
 }
 
-nav {
+nav{
     padding-top: 15px;
     padding-bottom: 15px;
     z-index: 1;
 }
 
-.nav {
+.nav{
     display: flex;
     font-weight: 700;
     font-family: "Roboto Condensed",sans-serif;
@@ -226,7 +226,7 @@ h2 span{
 
 #img-box h2{
   margin-left: -20px;
-  width: 25%;
+  width: auto;
   border: 1px solid #fff;
   display: table-cell;
   vertical-align: bottom;
@@ -291,6 +291,112 @@ h2 span{
 /*ends*/
 
 /* begins*/
+#fs-box{
+  height: 320px;
+}
+
+#fs-box div{
+  height: 300px;
+  margin-top: 10px;
+}
+
+#fs-textbox{
+  height: 55px;
+}
+
+#fs-textbox div{
+  height: 50px;
+  margin-top: 2px;
+  background-color: inherit;
+  border: none;
+}
+
+#fs-textbox div h2{
+  margin-left: -15px;
+}
+
+#fs-textbox div h2:hover{
+  text-decoration: underline;
+  text-decoration-color: #f23;
+}
+/*ends*/
+
+/* begins*/
+.category-line{
+  text-indent: -97%;
+  color: #f23;
+  font-size: 21px;
+}
+
+#us-box{
+  height: 350px;
+}
+
+#list-box{
+  background-color: #fff;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border: 1px solid #fff;
+}
+
+#list-box div{
+  margin: 0;
+
+}
+
+#us-box div{
+  margin-top: 15px;
+  padding: 10px;
+  height: 320px;
+}
+
+#us-box div hr {
+  margin: 10px 0 20px 0;
+}
+
+#xf{
+  padding: 0;
+  width: inherit;
+  height: 110px !important;
+  margin-top: -10px !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+#xf div{
+  margin-top: -10px;
+  margin-left: 1px;
+  width: inherit;
+  height: inherit;
+  background-color: #888;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#li-img3, #li-img4, #li-img5{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-right: 15px solid #fff;
+  background-color: #bbb !important;
+}
+
+#li-img3{}
+#li-img4{}
+#li-img5{}
+/*ends*/
+
+/* begins*/
+#li-img, #li-img1, #li-img2{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-right: 15px solid #fff;
+  background-color: #bbb !important;
+}
+
+#li-img{}
+#li-img1{}
+#li-img2{}
 /*ends*/
 
 /* begins*/
@@ -298,23 +404,6 @@ h2 span{
 
 /* begins*/
 /*ends*/
-
-/* begins*/
-/*ends*/
-
-/* begins*/
-/*ends*/
-
-/* begins*/
-/*ends*/
-
-
-
-
-
-
-
-
 
 /* begins*/
 /*ends*/
