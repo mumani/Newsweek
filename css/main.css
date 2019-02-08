@@ -1,9 +1,6 @@
 /*General CSS*/
 * {
-
-}
-
-html{
+    list-style: none;
 }
 
 body{
@@ -11,13 +8,53 @@ body{
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
+.container-fluid {
+    background-color: #000;
+    width: 1350px !important;
+}
 /*ends*/
 
 /*Header CSS begins*/
 .container{
     background-color: #ccc;
     width: inherit;
+}
 
+#logo {
+    margin-right: 200px;
+    border: 3px blue solid;
+}
+
+.nav {
+    background-color: #ffffff;
+    border-bottom: 2px solid #f4f5f6;
+}
+.nav ul {
+    display: flex;
+    width: 100%;
+}
+
+.nav ul>li {
+    flex-grow: 1;
+    border-right: 1px solid #d9d9d9;
+}
+
+.wrap img {
+    vertical-align: middle;
+    height: auto;
+}
+
+.mag ul{
+    margin-left: -40px;
+}
+
+article{
+    box-sizing: border-box;
+    border: #000000;
+}
+
+.mag {
+    background-color: #ffffff;
 }
 
 .mainb{
@@ -33,14 +70,23 @@ body{
     text-align: center;
 }
 
+
 .logo-text span{
     font-size: 60px;
+}
+#logo {
+    font-size: 70px;
     font-weight: 700;
 }
 
 .red{
     background: red;
     color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.flank {
+    margin-bottom: 0;
 }
 
 .white{
@@ -60,6 +106,26 @@ nav{
     font-family: "Roboto Condensed",sans-serif;
     list-style: none;
 }
+#sign-in {
+    text-align:right
+}
+
+.wrap {
+    position: relative;
+    min-height: 33px;
+    margin-bottom: 10px;
+}
+
+#sign-in{
+    font-size: 17px;
+    font-weight: bold;
+}
+#sub{
+    background-color: #fff;
+    color: #f82f1c;
+    padding: 10px;
+}
+
 /*Header CSS ends*/
 
 /* begins*/
@@ -209,6 +275,224 @@ h2 span{
   padding-left: 0;
   border: 1px solid #fff;
   font-weight: bold;
+}
+
+.title {
+    color: #777777;
+    font-weight: 600;
+}
+.block {
+    width: 100%
+}
+
+.first {
+    max-width: 33%;
+}
+
+h3 {
+    line-height: 22px;
+}
+
+h3> a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+h3> a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.related {
+    list-style: none;
+    color: black;
+}
+
+.related li {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.related li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.related li a:hover{
+    color: red;
+}
+.more{
+    border-top: 1px solid rgb(177, 166, 166);
+    padding-top: 10px; 
+    font-size: 14px;
+}
+.more img{
+    float: left;
+    margin-right: 8px;
+}
+.more>h4>a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+.more>h4> a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+
+
+article>h2>a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+article>h2>a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.subfeature2 img{
+    width: 135px;
+    height: 90px;
+}
+
+.content li{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid rgb(177, 166, 166);
+    padding: 5px 0;
+}
+.content li a{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+.round {
+    height: 65px;
+}
+
+.flexr {
+    display: flex;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.flexr img{
+    margin-right: 10px;
+}
+
+.flexr a {
+    color: #000000;
+    text-decoration: none;
+}
+.flexr a:hover {
+    color: red;
+}
+
+
+/*ends*/
+
+/* begins*/
+/* tags on images on the left side*/
+.tag {
+    background-color: #d4d1d1;
+    position: absolute;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 18px;
+    bottom: 0;
+    z-index: 10;
+}
+
+.tag a{
+    color: red;
+    text-decoration: none;
+}
+/*ends*/
+
+/* begins*/
+.footer {
+    border-top: 2px solid #f4f5f6;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+
+
+.copyright{
+    font-size:12px;
+    line-height:12px;
+    text-transform:uppercase;
+    color:#666;
+    margin-bottom:12px
+}
+.footer-links li{
+    display:inline-block;
+    padding-right:20px;
+    margin:6px 0;
+    cursor:pointer
+}
+.footer-links a{
+    display:block
+}
+label{
+    margin-top:6px;
+    margin-right:15px;
+}
+
+.bflex {
+    display: flex;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.bflex li {
+    text-align: center;
+    border-right: 1px solid #999;
+}
+
+.bflex a {
+    color: #666;
+    text-decoration: none;
+}
+
+.bflex a:hover {
+    color: #000;
+}
+
+.footer-logo{
+    color: #ff0000 !important;
+    font-size: 40px;
+    font-weight: bold;
 }
 /*ends*/
 
