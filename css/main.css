@@ -21,8 +21,8 @@ body{
 }
 
 #logo {
-    margin-right: 200px;
-    border: 3px blue solid;
+    margin: 0 auto;
+    transform: translate(-50%,0);
 }
 
 .nav {
@@ -37,34 +37,19 @@ body{
 .nav ul>li {
     flex-grow: 1;
     border-right: 1px solid #d9d9d9;
-}
-
-.wrap img {
+    text-align: center;
     vertical-align: middle;
-    height: auto;
 }
 
-.mag ul{
-    margin-left: -40px;
+.nav ul>li a{
+  color: #000000;
 }
 
-article{
-    box-sizing: border-box;
-    border: #000000;
+.nav ul>li a:hover{
+  color: #000000;
+  text-decoration: none;
 }
 
-.mag {
-    background-color: #ffffff;
-}
-
-.mainb{
-    background-color: #ce1414;
-    color: #ffffff;
-}
-
-.maina{
-    background-color: #ffffff;
-}
 
 .logo-text{
     text-align: center;
@@ -79,14 +64,35 @@ article{
     font-weight: 700;
 }
 
+#date{
+  float: left;
+}
+
 .red{
     background: red;
     color: #ffffff;
     padding-bottom: 20px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .flank {
-    margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 18px;
+}
+
+#sign-in{
+  font-size: 17px;
+  font-weight: bold;
+}
+#sub{
+  background-color: #fff;
+  color: #f82f1c;
+  padding: 5px;
 }
 
 .white{
@@ -94,37 +100,24 @@ article{
     border-bottom: 2px solid #ccc;
 }
 
-nav{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    z-index: 1;
-}
 
 .nav{
     display: flex;
     font-weight: 700;
     font-family: "Roboto Condensed",sans-serif;
     list-style: none;
+    font-size: 18px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height: 50px;
 }
 #sign-in {
     text-align:right
 }
 
-.wrap {
-    position: relative;
-    min-height: 33px;
-    margin-bottom: 10px;
-}
 
-#sign-in{
-    font-size: 17px;
-    font-weight: bold;
-}
-#sub{
-    background-color: #fff;
-    color: #f82f1c;
-    padding: 10px;
-}
+
+
 
 /*Header CSS ends*/
 
@@ -135,10 +128,43 @@ nav{
   background-color: #fff;
 }
 
+.wrap {
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
+}
+
 #top-line{
   position: relative;
   left: 145px;
   width: 75%;
+}
+
+.wrap img {
+  vertical-align: middle;
+  height: auto;
+}
+
+.mag ul{
+  margin-left: -40px;
+}
+
+article{
+  box-sizing: border-box;
+  border: #000000;
+}
+
+.mag {
+  background-color: #ffffff;
+}
+
+.mainb{
+  background-color: #ce1414;
+  color: #ffffff;
+}
+
+.maina{
+  background-color: #ffffff;
 }
 
 .row{
