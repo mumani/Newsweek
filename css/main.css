@@ -472,7 +472,6 @@ article>h2>a:hover {
   color: #666;
 }
 
-
 .copyright{
   font-size:12px;
   line-height:12px;
@@ -480,15 +479,18 @@ article>h2>a:hover {
   color:#666;
   margin-bottom:12px
 }
+
 .footer-links li{
   display:inline-block;
   padding-right:20px;
   margin:6px 0;
   cursor:pointer
 }
+
 .footer-links a{
   display:block
 }
+
 label{
   margin-top:6px;
   margin-right:15px;
@@ -542,17 +544,6 @@ left: 0;
 z-index: 10;
 color: #ce1414;
 }
-
-/* #img-box h2{
-margin-left: -20px;
-width: auto;
-border: 1px solid #fff;
-display: table-cell;
-vertical-align: bottom;
-background-color: #eee;
-position: relative;
-left: -15px;
-} */
 
 #post-menu3 div, #post-menu4 div{
 text-align: left;
@@ -618,39 +609,39 @@ background-size: cover;
 /*ends*/
 
 /*'Featured Slideshows' begins*/
-#fs-box{
-height: 320px;
+#fs-box, #fs-box_1{
+  height: 320px;
 }
 
 #fs-box div{
-height: 300px;
-margin-top: 10px;
+  height: 300px;
+  margin-top: 10px;
 }
 
-#fs-textbox{
+.fst{
 height: 55px;
 }
 
-#fs-textbox div{
+.fst div{
 height: 50px;
 margin-top: 2px;
 background-color: inherit;
 border: none;
 }
 
-#fs-textbox div h2{
+.fst div h2{
 margin-left: -15px;
 }
 
-#fs-textbox div h2:hover{
+.fst div h2:hover{
 text-decoration: underline;
 text-decoration-color: #f23;
 cursor: pointer;
 }
 
 #fs-box1{
-background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/01/christian-dior-designer-dreams-victoria-albert-museum.jpg);
-background-size: cover;
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/01/christian-dior-designer-dreams-victoria-albert-museum.jpg);
+  background-size: cover;
 }
 #fs-box2{
 background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/31/image-00_0.jpg);
@@ -694,13 +685,13 @@ color: #f23;
 font-size: 21px;
 }
 
-#us-box{
+#us-box, #us-box_1, #us-box_2, #us-box3, #us-box4, #us-box5{
 height: 350px;
 }
 
 #us-box1{
-background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/gettyimages-51256941.jpg);
-background-size: cover;
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/gettyimages-51256941.jpg);
+  background-size: cover;
 }
 
 #us-box2{
