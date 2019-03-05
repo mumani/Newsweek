@@ -627,22 +627,22 @@ height: 300px;
 margin-top: 10px;
 }
 
-#fs-textbox{
+.fs-textbox{
 height: 55px;
 }
 
-#fs-textbox div{
+.fs-textbox div{
 height: 50px;
 margin-top: 2px;
 background-color: inherit;
 border: none;
 }
 
-#fs-textbox div h2{
+.fs-textbox div h2{
 margin-left: -15px;
 }
 
-#fs-textbox div h2:hover{
+.fs-textbox div h2:hover{
 text-decoration: underline;
 text-decoration-color: #f23;
 cursor: pointer;
@@ -708,14 +708,14 @@ background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles
 background-size: cover;
 }
 
-#list-box{
+.list-box{
 background-color: #fff;
 margin-left: 0 !important;
 margin-right: 0 !important;
 border: 1px solid #fff;
 }
 
-#list-box div{
+.list-box div{
 margin: 0;
 }
 
