@@ -1,0 +1,929 @@
+/*General CSS*/
+* {
+  list-style: none;
+}
+
+body{
+  background-color: #f4f5f6;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid {
+  background-color: #000;
+  width: 1350px !important;
+}
+/*ends*/
+
+/*Header CSS begins*/
+.container{
+  background-color: #ccc;
+  width: inherit;
+}
+
+#logo {
+  margin: 0 auto;
+  transform: translate(-50%,0);
+}
+
+.nav {
+  background-color: #ffffff;
+  border-bottom: 2px solid #f4f5f6;
+}
+.nav ul {
+  display: flex;
+  width: 100%;
+}
+
+.nav ul>li {
+  flex-grow: 1;
+  border-right: 1px solid #d9d9d9;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav ul>li a{
+color: #000000;
+}
+
+.nav ul>li a:hover{
+color: #000000;
+text-decoration: none;
+}
+
+
+.logo-text{
+  text-align: center;
+}
+
+
+.logo-text span{
+  font-size: 60px;
+}
+#logo {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+#date{
+float: left;
+}
+
+.red{
+  background: red;
+  color: #ffffff;
+  padding-bottom: 20px;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.flank {
+position: absolute;
+bottom: 0;
+margin-bottom: 18px;
+}
+
+#sign-in{
+font-size: 17px;
+font-weight: bold;
+}
+#sub{
+background-color: #fff;
+color: #f82f1c;
+padding: 5px;
+}
+
+.white{
+  background: #ffffff;
+  border-bottom: 2px solid #ccc;
+}
+
+
+.nav{
+  display: flex;
+  font-weight: 700;
+  font-family: "Roboto Condensed",sans-serif;
+  list-style: none;
+  font-size: 18px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  height: 50px;
+}
+#sign-in {
+  text-align:right
+}
+
+
+
+
+
+/*Header CSS ends*/
+
+/* begins*/
+.container-fluid{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: left;
+background-color: #fff;
+}
+
+.wrap {
+position: relative;
+min-height: 33px;
+margin-bottom: 10px;
+}
+
+#top-line{
+position: relative;
+left: 145px;
+width: 75%;
+}
+
+.wrap img {
+vertical-align: middle;
+height: auto;
+}
+
+.mag ul{
+margin-left: -40px;
+}
+
+article{
+box-sizing: border-box;
+border: #000000;
+}
+
+.mag {
+background-color: #ffffff;
+}
+
+.mainb{
+background-color: #ce1414;
+color: #ffffff;
+}
+
+.maina{
+background-color: #ffffff;
+}
+
+.row{
+margin-top: 5px;
+}
+
+/* h1{
+text-transform: capitalize;
+text-indent: 600px;
+font-size: 21px !important;
+font-weight: bold !important;
+padding-top: 10px;
+margin-bottom: -5px;
+} */
+
+h2{
+color: #000;
+font-size: 16px;
+font-weight: bold;
+background-color: #fff;
+
+}
+
+h2 span{
+background-color: #f33;
+color: #fff;
+}
+
+#feature-link{
+background-color: #fff !important;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/embed-xs/public/2019/01/24/20190201-08cover1800x2400.jpg);
+background-size: cover;
+border: 1px solid transparent;
+background-position: center;
+background-repeat: no-repeat;
+height: 330px;
+margin-top: -40px;
+
+}
+
+#feature-link h2{
+background-color: #ccc;
+color: #f00;
+position: relative;
+top: 290px;
+left: -15px;
+width: 70%;
+}
+
+.col-sm{
+text-align: left;
+background-color: #ddd;
+margin: 0px 10px 0px 10px;
+height: 250px;
+border: 1px solid #ddd;
+}
+
+#box-1{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/01/22/perimpeachment01use-banner.jpg);
+background-size: cover;
+}
+
+#box-2{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/01/22/femerkel011071748920use-banner.jpg);
+background-size: cover;
+}
+
+#box-3{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/01/22/culroma01new-banner.jpg);
+background-size: cover;
+}
+
+#box-4{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/01/16/fetrumpchina081079012834.jpg);
+background-size: cover;
+}
+
+#box-5{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/01/16/fetrumpchina01use-banner.jpg);
+background-size: cover;
+}
+
+#box-6{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/01/14/culmagicians01use-banner.JPG);
+background-size: cover;
+}
+
+#box-7{
+background-image: url(https://www.newsweek.com/#front_page);
+background-size: cover;
+}
+
+#post-menu{
+
+
+}
+
+#post-menu div{
+text-align: left;
+background-color: #fff;
+padding-left: 0;
+border: 1px solid #fff;
+font-weight: bold;
+}
+
+#fl-menu{
+text-align: center !important;
+margin-top: -25px;
+background-color: #ddd !important;
+height: 50px !important;
+display: inline-table;
+}
+
+.fl-menu{
+background-color: inherit;
+font-size: 18px !important;
+margin-left: 50px;
+height: 70px;
+display: table-cell;
+vertical-align: middle;
+}
+
+#hl-menu1, #hl-menu2, #hl-menu3{
+margin-top: -30px !important;
+height: 100px !important;
+
+}
+
+#post-menu2 div{
+text-align: left;
+background-color: #fff;
+height: 100px;
+padding-left: 0;
+border: 1px solid #fff;
+font-weight: bold;
+}
+
+.title {
+  color: #777777;
+  font-weight: 600;
+}
+.block {
+  width: 100%
+}
+
+.first {
+  max-width: 33%;
+}
+
+h3 {
+  line-height: 22px;
+}
+
+h3> a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h3> a:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.related {
+  list-style: none;
+  color: black;
+}
+
+.related li {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.related li a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.related li a:hover{
+  color: red;
+}
+.more{
+  border-top: 1px solid rgb(177, 166, 166);
+  padding-top: 10px;
+  font-size: 14px;
+}
+.more img{
+  float: left;
+  margin-right: 8px;
+}
+.more>h4>a{
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.more>h4> a:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+
+
+article>h2>a{
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+article>h2>a:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.subfeature2 img{
+  width: 135px;
+  height: 90px;
+}
+
+.content li{
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 1px solid rgb(177, 166, 166);
+  padding: 5px 0;
+}
+.content li a{
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.round {
+  height: 65px;
+}
+
+.flexr {
+  display: flex;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.flexr img{
+  margin-right: 10px;
+}
+
+.flexr a {
+  color: #000000;
+  text-decoration: none;
+}
+.flexr a:hover {
+  color: red;
+}
+
+
+/*ends*/
+
+/* begins*/
+/* tags on images on the left side*/
+.tag {
+  background-color: #d4d1d1;
+  position: absolute;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 18px;
+  bottom: 0;
+  z-index: 10;
+}
+
+.tag a{
+  color: red;
+  text-decoration: none;
+}
+/*ends*/
+
+/* begins*/
+.footer {
+  border-top: 2px solid #f4f5f6;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-links{
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.copyright{
+  font-size:12px;
+  line-height:12px;
+  text-transform:uppercase;
+  color:#666;
+  margin-bottom:12px
+}
+
+.footer-links li{
+  display:inline-block;
+  padding-right:20px;
+  margin:6px 0;
+  cursor:pointer
+}
+
+.footer-links a{
+  display:block
+}
+
+label{
+  margin-top:6px;
+  margin-right:15px;
+}
+
+.bflex {
+  display: flex;
+  line-height: 10px;
+  font-size: 14px;
+}
+
+.bflex li {
+  text-align: center;
+  border-right: 1px solid #999;
+}
+
+.bflex a {
+  color: #666;
+  text-decoration: none;
+}
+
+.bflex a:hover {
+  color: #000;
+}
+
+.footer-logo{
+  color: #ff0000 !important;
+  font-size: 40px;
+  font-weight: bold;
+}
+/*ends*/
+
+/* begins*/
+.img-box div{
+position: relative;
+/* display: inline-table; */
+text-align: left;
+border: 1px solid #ccc;
+padding-top: 220px;
+/* padding-left: -50px; */
+}
+
+.idl>h2{
+background-color: #d4d1d1;
+position: absolute;
+font-weight: bold;
+padding: 8px;
+font-size: 18px;
+bottom: -8px;
+left: 0;
+z-index: 10;
+color: #ce1414;
+}
+
+#post-menu3 div, #post-menu4 div{
+text-align: left;
+background-color: #fff;
+height: 160px;
+padding-left: 0;
+border: 1px solid #fff;
+font-weight: bold;
+}
+
+#post-menu3 div p, #post-menu4 div p{
+font-weight: lighter;
+font-size: 15px;
+}
+
+#box-8{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/donald-trump-impeachment.jpg);
+background-size: cover;
+}
+
+#box-9{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/trump-mar-lago-taxpayers-millions.jpg);
+background-size: cover;
+}
+
+#box-10{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2018/06/12/american-flag.jpg);
+background-size: cover;
+}
+
+#box-11{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/seals-rocks-nz.jpg);
+background-size: cover;
+}
+
+#box-12{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/erick-jamal-hendricks-isis-sentenced.jpg);
+background-size: cover;
+}
+
+#box-13{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/adolf-hitler-paintings-nazi-artwork-auction-nuremburg.jpg);
+background-size: cover;
+}
+
+#box-14{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/iud-contrapcetion-stock-getty.jpg);
+background-size: cover;
+}
+
+#box-15{
+height: 250px;
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/10/earths-magnetic-field.jpg);
+background-size: cover;
+}
+/*ends*/
+
+/*'Featured Slideshows' begins*/
+#fs-box, #fs-box_1{
+  height: 320px;
+}
+
+#fs-box div{
+  height: 300px;
+  margin-top: 10px;
+}
+
+<<<<<<< HEAD
+.fst{
+height: 55px;
+}
+
+.fst div{
+=======
+.fs-textbox{
+height: 55px;
+}
+
+.fs-textbox div{
+>>>>>>> freeview
+height: 50px;
+margin-top: 2px;
+background-color: inherit;
+border: none;
+}
+
+<<<<<<< HEAD
+.fst div h2{
+margin-left: -15px;
+}
+
+.fst div h2:hover{
+=======
+.fs-textbox div h2{
+margin-left: -15px;
+}
+
+.fs-textbox div h2:hover{
+>>>>>>> freeview
+text-decoration: underline;
+text-decoration-color: #f23;
+cursor: pointer;
+}
+
+#fs-box1{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/01/christian-dior-designer-dreams-victoria-albert-museum.jpg);
+  background-size: cover;
+}
+#fs-box2{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/31/image-00_0.jpg);
+background-size: cover;
+}
+#fs-box3{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/31/image-00.jpg);
+background-size: cover;
+}
+#fs-box4{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/30/00-gettyimages-1091003758.jpg);
+background-size: cover;
+}
+#fs-box5{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/30/00-polar-vortex-snow-maryland.jpg);
+background-size: cover;
+}
+#fs-box6{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/29/image-00_0.jpg);
+background-size: cover;
+}
+/*ends*/
+
+/* begins*/
+.section-title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.n-logo{
+  color: #fff;
+  background-color: #f23;
+  padding: 7px;
+  margin-right: 7px;
+}
+
+.category-line{
+text-indent: 0;
+color: #f23;
+font-size: 21px;
+}
+
+#us-box, #us-box_1, #us-box_2, #us-box3, #us-box4, #us-box5{
+height: 350px;
+}
+
+#us-box1{
+  background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/gettyimages-51256941.jpg);
+  background-size: cover;
+}
+
+#us-box2{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/01/29/facetime-bug-apple-pulls-group-calling-eavesdrop-how-disable-facetime.jpg);
+background-size: cover;
+}
+
+.list-box{
+background-color: #fff;
+margin-left: 0 !important;
+margin-right: 0 !important;
+border: 1px solid #fff;
+}
+
+.list-box div{
+margin: 0;
+}
+
+#us-box div{
+margin-top: 15px;
+padding: 10px;
+height: 320px;
+}
+
+#us-box div hr {
+margin: 10px 0 20px 0;
+}
+
+#xf{
+padding: 0;
+width: inherit;
+height: 110px !important;
+margin-top: -10px !important;
+margin-left: 0 !important;
+}
+
+#xf div{
+margin-top: -10px;
+margin-left: -10px;
+width: inherit;
+height: inherit;
+background-color: #fff;
+font-weight: bold;
+font-size: 15px;
+}
+
+#xf div:hover{
+color: #f23;
+}
+
+#li-img3, #li-img4, #li-img5{
+margin-left: 0 !important;
+margin-right: 0 !important;
+border-right: 15px solid #fff;
+background-color: #bbb !important;
+}
+
+#li-img3{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/wright-patterson-air-force-base-employee-child-rape.jpg);
+background-size: cover;
+}
+#li-img4{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/frozen-cat-fluffy.jpg);
+background-size: cover;
+}
+#li-img5{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/charles-dickens-1860.jpg);
+background-size: cover;
+}
+/*ends*/
+
+/*World begins*/
+#wl-box{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/00-alfaromeo8c2900blungotouringcoupe-23.jpg);
+background-size: cover;
+}
+
+#wl-box1{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/gettyimages-670989506-594x594.jpg);
+background-size: cover;
+}
+
+#li-img, #li-img1, #li-img2{
+margin-left: 0 !important;
+margin-right: 0 !important;
+border-right: 15px solid #fff;
+background-color: #bbb !important;
+}
+
+#li-img{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/06/gettyimages-631029424_0.jpg);
+background-size: cover;
+}
+#li-img1{
+background-image: url();
+background-size: cover;
+}
+#li-img2{
+background-image: url();
+background-size: cover;
+}
+/*ends*/
+
+/*Business begins*/
+#li-img6, #li-img7, #li-img8{
+margin-left: 0 !important;
+margin-right: 0 !important;
+border-right: 15px solid #fff;
+background-color: #bbb !important;
+}
+
+#bs-box{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/06/rolling-acres-2.jpg);
+background-size: cover;
+}
+#bs-box1{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/05/stateoftheunionlivestreamwatch.jpg);
+background-size: cover;
+}
+
+#li-img6{
+background-image: url();
+background-size: cover;
+}
+#li-img7{
+background-image: url();
+background-size: cover;
+}
+#li-img8{
+background-image: url();
+background-size: cover;
+}
+/*ends*/
+
+/*Tech & Science begins*/
+#li-img9, #li-img10, #li-img11{
+margin-left: 0 !important;
+margin-right: 0 !important;
+border-right: 15px solid #fff;
+background-color: #bbb !important;
+}
+
+#ts-box{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/genesis-butler.jpg);
+background-size: cover;
+}
+
+#ts-box1{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/robin-getty-stock.jpg);
+background-size: cover;
+}
+
+#li-img9{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/contentm1303521387lrmos.png);
+background-size: cover;
+}
+#li-img10{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/remove-message-everyone.jpeg);
+background-size: contain;
+}
+#li-img11{
+background-image: url();
+background-size: cover;
+}
+/*ends*/
+
+/*Culture begins*/
+#li-img12, #li-img13, #li-img14{
+margin-left: 0 !important;
+margin-right: 0 !important;
+border-right: 15px solid #fff;
+background-color: #bbb !important;
+}
+
+#li-img12{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/gettyimages-915062574.jpg);
+background-size: cover;
+}
+#li-img13{
+background-image: url();
+background-size: cover;
+}
+#li-img14{
+background-image: url();
+background-size: cover;
+}
+/*ends*/
+
+/*Sports begins*/
+#li-img15, #li-img16, #li-img17{
+margin-left: 0 !important;
+margin-right: 0 !important;
+border-right: 15px solid #fff;
+background-color: #bbb !important;
+}
+
+#sp-box{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/07/kevin-durant-golden-state-warriors_0.jpg);
+background-size: cover;
+}
+
+#sp-box1{
+background-image: url();
+background-size: cover;
+}
+
+#li-img15{
+background-image: url();
+background-size: cover;
+}
+#li-img16{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/harrison-barnes-dallas-mavericks.jpg);
+background-size: cover;
+}
+#li-img17{
+background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/07/kevin-durant-golden-state-warriors.jpg);
+background-size: cover;
+}
+/*ends*/
