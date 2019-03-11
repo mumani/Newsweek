@@ -156,6 +156,7 @@ border: #000000;
 
 .mag {
 background-color: #ffffff;
+margin-bottom: 70px;
 }
 
 .mainb{
@@ -170,15 +171,6 @@ background-color: #ffffff;
 .row{
 margin-top: 5px;
 }
-
-/* h1{
-text-transform: capitalize;
-text-indent: 600px;
-font-size: 21px !important;
-font-weight: bold !important;
-padding-top: 10px;
-margin-bottom: -5px;
-} */
 
 h2{
 color: #000;
@@ -526,11 +518,9 @@ label{
 /* begins*/
 .img-box div{
 position: relative;
-/* display: inline-table; */
 text-align: left;
 border: 1px solid #ccc;
 padding-top: 220px;
-/* padding-left: -50px; */
 }
 
 .idl>h2{
@@ -609,47 +599,31 @@ background-size: cover;
 /*ends*/
 
 /*'Featured Slideshows' begins*/
-#fs-box, #fs-box_1{
-  height: 320px;
+.fs-box{
+height: 320px;
 }
 
-#fs-box div{
-  height: 300px;
-  margin-top: 10px;
+.fs-box div{
+height: 300px;
+margin-top: 10px;
 }
 
-<<<<<<< HEAD
-.fst{
-height: 55px;
-}
-
-.fst div{
-=======
 .fs-textbox{
 height: 55px;
 }
 
 .fs-textbox div{
->>>>>>> freeview
 height: 50px;
 margin-top: 2px;
 background-color: inherit;
 border: none;
 }
 
-<<<<<<< HEAD
-.fst div h2{
-margin-left: -15px;
-}
-
-.fst div h2:hover{
-=======
 .fs-textbox div h2{
 margin-left: -15px;
 }
 
 .fs-textbox div h2:hover{
->>>>>>> freeview
 text-decoration: underline;
 text-decoration-color: #f23;
 cursor: pointer;
@@ -701,7 +675,7 @@ color: #f23;
 font-size: 21px;
 }
 
-#us-box, #us-box_1, #us-box_2, #us-box3, #us-box4, #us-box5{
+.us-box{
 height: 350px;
 }
 
@@ -726,17 +700,17 @@ border: 1px solid #fff;
 margin: 0;
 }
 
-#us-box div{
+.us-box div{
 margin-top: 15px;
 padding: 10px;
 height: 320px;
 }
 
-#us-box div hr {
+.us-box div hr {
 margin: 10px 0 20px 0;
 }
 
-#xf{
+.xf{
 padding: 0;
 width: inherit;
 height: 110px !important;
@@ -744,7 +718,7 @@ margin-top: -10px !important;
 margin-left: 0 !important;
 }
 
-#xf div{
+.xf div{
 margin-top: -10px;
 margin-left: -10px;
 width: inherit;
@@ -754,7 +728,7 @@ font-weight: bold;
 font-size: 15px;
 }
 
-#xf div:hover{
+.xf div:hover{
 color: #f23;
 }
 
@@ -790,22 +764,22 @@ background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles
 background-size: cover;
 }
 
-#li-img, #li-img1, #li-img2{
+.li-img, .li-img1, .li-img2{
 margin-left: 0 !important;
 margin-right: 0 !important;
 border-right: 15px solid #fff;
 background-color: #bbb !important;
 }
 
-#li-img{
+.li-img{
 background-image: url(https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/02/06/gettyimages-631029424_0.jpg);
 background-size: cover;
 }
-#li-img1{
+.li-img1{
 background-image: url();
 background-size: cover;
 }
-#li-img2{
+.li-img2{
 background-image: url();
 background-size: cover;
 }
